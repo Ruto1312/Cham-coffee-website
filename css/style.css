@@ -38,3 +38,7 @@ html[data-l="vi"] .en,html[data-l="en"] .vi{display:none}
 html[data-l="vi"] .steps .en,html[data-l="en"] .steps .vi{display:none}
 @media(max-width:760px){.photos{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}}
 .notice{background:var(--moss);color:var(--paper);text-align:center;font-size:.85rem;padding:8px 16px}
+.notice{position:sticky;top:0;z-index:10;background:#8a3b12;color:#fff;font-size:1rem;font-weight:500;line-height:1.5;padding:12px 16px}
+.notice b{letter-spacing:.1em;margin-right:6px}
+.tag{display:inline-block;border:1px solid var(--bark);color:var(--bark);padding:4px 12px;font-size:.8rem;font-weight:500;letter-spacing:.08em;margin:0 0 16px}
+.callout{border-left:4px solid #8a3b12;background:var(--card);padding:12px 16px;font-size:.95rem;margin:16px 0}

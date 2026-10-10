@@ -37,3 +37,4 @@ html[data-l="vi"] .en,html[data-l="en"] .vi{display:none}
 .steps figcaption{font-size:.9rem;line-height:1.5;margin-top:8px}.steps b{display:block;font-weight:500}
 html[data-l="vi"] .steps .en,html[data-l="en"] .steps .vi{display:none}
 @media(max-width:760px){.photos{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}}
+.notice{background:var(--moss);color:var(--paper);text-align:center;font-size:.85rem;padding:8px 16px}

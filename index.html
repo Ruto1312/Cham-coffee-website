@@ -98,11 +98,13 @@
 <p class="vi">Để lại email để nhận mã giảm 15% cho đơn đầu tiên khi CHẬM mở cửa, cùng thông báo khai trương và vài cập nhật.</p>
 <p class="en">Leave your email to get a 15% code for your first order when CHẬM opens, plus the launch notice and a few updates.</p>
 <form id="wl">
+<label for="fname"><span class="vi">Tên của bạn</span><span class="en">Your first name</span></label>
+<input id="fname" name="name" type="text" required maxlength="60" autocomplete="given-name" style="width:100%;padding:12px;border:1px solid var(--sage);background:var(--paper);color:var(--moss);font:inherit;margin-bottom:16px">
 <label for="email"><span class="vi">Email của bạn</span><span class="en">Your email</span></label>
 <input id="email" name="email" type="email" required autocomplete="email">
 <input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
 <div class="consent"><input id="ok" name="consent" type="checkbox" required>
-<label for="ok" style="font-weight:400;margin:0"><span class="vi">Tôi đồng ý để CHẬM lưu email này và gửi cho tôi mã giảm giá, thông báo khai trương cùng vài cập nhật trong chiến dịch ra mắt. CHẬM không chia sẻ email cho bên khác và sẽ xóa email sau khi bài tập được chấm điểm. Tôi có thể xin xóa bất cứ lúc nào.</span><span class="en">I agree to CHẬM storing this email and sending me a discount code, the launch notice and a few updates during the launch campaign. CHẬM does not share it with anyone else and will delete it after the assignment is assessed. I can ask to be removed at any time.</span></label></div>
+<label for="ok" style="font-weight:400;margin:0"><span class="vi">Tôi đồng ý để CHẬM lưu tên và email này và gửi cho tôi mã giảm giá, thông báo khai trương cùng vài cập nhật trong chiến dịch ra mắt. CHẬM không chia sẻ thông tin này cho bên khác và sẽ xóa sau khi bài tập được chấm điểm. Tôi có thể xin xóa bất cứ lúc nào.</span><span class="en">I agree to CHẬM storing my name and email and sending me a discount code, the launch notice and a few updates during the launch campaign. CHẬM does not share them with anyone else and will delete them after the assignment is assessed. I can ask to be removed at any time.</span></label></div>
 <button class="btn" type="submit"><span class="vi">Nhận mã giảm 15%</span><span class="en">Get my 15% code</span></button>
 <p id="wl-msg" role="status" class="note"></p>
 </form></div></div></section>
